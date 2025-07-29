@@ -1,4 +1,4 @@
-# JavaScript Study Guide for Students
+# JavaScript
 
 Welcome to your JavaScript learning journey! This guide will help you understand the basics, best practices, and advanced concepts of JavaScript, with resources and tips for effective learning.
 
