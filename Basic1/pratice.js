@@ -35,3 +35,13 @@ console.log(pen.priceofPen) //undefined
 console.log()
 
 console.log(typeof pen)
+
+const fullName = 'Prashant'
+const student = {
+  fullname: fullName,
+  fullName: 'Aryan',
+}
+//there is no relation b/w fullName variable and student.fullName property
+// student.fullName is a property of the student object, not a variable
+console.log(student.fullname)
+console.log(student.fullName)
