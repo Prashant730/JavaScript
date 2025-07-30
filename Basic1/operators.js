@@ -25,7 +25,7 @@ console.log(a ** b) //25(a to the power of b)
 // The basic assignment operator is '=', which assigns the value on the right to the variable on the left.
 // Other assignment operators combine assignment with arithmetic operations.
 
-/*= -> assign, += -> add and assign(a = a + b), -= -> subtract and assign(a = a - b),
+/*, = -> assign, += -> add and assign(a = a + b), -= -> subtract and assign(a = a - b),
  *= -> multiply and assign(a = a * b), /= -> divide and assign(a = a / b), %= -> modulus and assign(a = a % b),
  **= -> exponentiation and assign(a = a ** b) */
 
@@ -89,3 +89,52 @@ console.log('value of k = ', k) // 3125
 
 // == -> equal value, === -> equal value and type, != -> not equal value, !== -> not equal value and type,
 // > -> greater than, < -> less than, >= -> greater than or equal to, <= -> less than or equal to
+
+let m = 10
+let n = '10'
+
+console.log(m == n) //true (value is equal)
+console.log(m === n) //false (value is equal but different datatype)
+console.log(m != n) //false (value is equal)
+console.log(m !== n) //true (value is equal but different datatype)
+console.log(m > n) //false (10 is not greater than '10')
+console.log(m < n) //false (10 is not less than '10')
+console.log(m >= n) //true (10 is greater than or equal to '10')
+console.log(m <= n) //true (10 is less than or equal to '10')
+console.log(m > 5) //true (10 is greater than 5)
+console.log(m < 5) //false (10 is not less than 5)
+console.log(m >= 5) //true (10 is greater than or equal to 5)
+console.log(m <= 5) //false (10 is not less than or equal to 5)
+console.log(m == 5) //false (10 is not equal to 5)
+console.log(m === 5) //false (10 is not equal to 5 and different datatype)
+console.log(m != 5) //true (10 is not equal to 5)
+console.log(m !== 5) //true (10 is not equal to 5 and different datatype)
+
+// --------------------------------------------------------------------------------------------------------------------------
+
+// 4. Logical Operators(&&, ||, !)
+// Logical operators are used to combine or invert boolean values.
+// && -> logical AND, || -> logical OR, ! -> logical NOT
+
+// for logical AND
+// true && true -> true
+// true && false -> false
+// false && true -> false
+// false && false -> false
+
+// for logical OR
+// true || true -> true
+// true || false -> true
+// false || true -> true
+// false || false -> false
+
+// for logical NOT
+// a. !true -> false
+// b. !false -> true
+
+let p = true
+let q = false
+console.log(p && q) //flase
+console.log(p || q) //true
+console.log(!p) //false
+console.log(!q) //true
