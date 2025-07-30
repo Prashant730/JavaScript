@@ -182,7 +182,9 @@ const newArr = [...arr, 4, 5]
 - [JavaScript.info](https://javascript.info/)
 - [freeCodeCamp JavaScript Course](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/)
 - [W3Schools JavaScript Tutorial](https://www.w3schools.com/js/)
-- [Eloquent JavaScript (Book)](https://eloquentjavascript.net/)
+- [Apna college](https://www.youtube.com/playlist?list=PLfqMhTWNBTe0PY9xunOzsP5kmYIz2Hu7i/)
+- [Chai aur Code javascript part 1](https://www.youtube.com/watch?v=sscX432bMZo&list=PLpuKjAMBaS_yDMBFHFgSHpqm2mEn3ct3M&index=1/)
+- [Chai aur Code javascript part 2](https://www.youtube.com/watch?v=_TjtAyMkiTI&list=PLpuKjAMBaS_yDMBFHFgSHpqm2mEn3ct3M&index=2/)
 
 ---
 
