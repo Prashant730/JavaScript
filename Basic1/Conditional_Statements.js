@@ -27,3 +27,30 @@ if (mode === 'light') {
   color = 'white'
 }
 console.log(color)
+
+//-------------------------------------------------------------------------------------------------------------------------
+// 2. if else statement
+// if else statements are used to execute a block of code based on a condition. If the condition is true, the code inside the if block will be executed, otherwise the code inside the else block will be executed.
+
+let age = 4 // can not get voting id
+let age = 20 // can get voting id
+if (age >= 18) {
+  console.log('can get voting id')
+} else {
+  console.log('cannot get voting id')
+}
+
+//-------------------------------------------------------------------------------------------------------------------------
+// 3. if else if statement
+// if else if statements are used to execute a block of code based on multiple conditions. If the first condition is true, the code inside the if block will be executed. If the first condition is false, the next condition will be checked, and so on. If none of the conditions are true, the code inside the else block will be executed.
+
+let age = 20 //middle aged
+let age = 12 //minor
+let age = 61 //senior citizen
+if (age < 18) {
+  console.log('you are minor')
+} else if (age > 60) {
+  console.log('you are senior citizen')
+} else {
+  console.log('you are middle aged')
+}
