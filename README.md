@@ -1,6 +1,6 @@
 # JavaScript
 
-Welcome to my JavaScript learning journey! This guide help me to understand the basics, best practices, and advanced concepts of JavaScript, with resources and tips for effective learning.
+Welcome to my JavaScript learning journey! This guide help me to understand and learn the basics and advanced concepts of JavaScript, with resources and tips for effective learning with some pratice question.
 
 ---
 
