@@ -54,3 +54,36 @@ if (age < 18) {
 } else {
   console.log('you are middle aged')
 }
+
+// -------------------------------------------------------------------------------------------------------------------------
+// 4. switch statement
+// switch statements are used to execute a block of code based on the value of a variable.
+// It is a cleaner way to write multiple if else statements when you are checking the same variable against different values.
+
+let day = 3 //wednesday
+switch (day) {
+  case 1:
+    cconsole.log('monday')
+    break
+  case 2:
+    console.log('tuesday')
+    break
+  case 3:
+    console.log('wednesday')
+    break
+  case 4:
+    console.log('thursday')
+    break
+  case 5:
+    console.log('friday')
+    break
+  case 6:
+    console.log('saturday')
+    break
+  case 7:
+    console.log('sunday')
+    break
+  default:
+    console.log('invalid day')
+    break
+}
