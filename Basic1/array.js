@@ -19,6 +19,7 @@ let name = [
   'Samy',
   'Shubham',
 ]
+
 //if we want to access any element of the array we can use access form it's index and index starts from 0
 console.log(name[0])
 console.log(name[1])
@@ -49,3 +50,5 @@ for (let i of name) {
 for (let i of name) {
   console.log(name[i]) //undefined
 }
+
+//Arraymethods
