@@ -151,3 +151,11 @@ for (let price of priceOfItem) {
   let finalPrice = price - discount
   console.log(finalPrice)
 }
+
+let companies = ['bloombery', 'microsoft', 'google', 'uber', 'ibm', 'netflix']
+companies.shift()
+console.log(companies)
+companies.splice(2, 1, 'ola')
+console.log(companies)
+companies.push('amazon')
+console.log(companies)
