@@ -159,3 +159,53 @@ companies.splice(2, 1, 'ola')
 console.log(companies)
 companies.push('amazon')
 console.log(companies)
+
+//-------------------------------------------------------------------------------------------------------------------------
+
+//Functions
+let count = 0
+function countVowels(string) {
+  let arr = string.split('')
+  for (let i = 0; i < arr.length; i++) {
+    if (
+      arr[i] === 'a' ||
+      arr[i] == 'A' ||
+      arr[i] == 'e' ||
+      arr[i] == 'E' ||
+      arr[i] == 'i' ||
+      arr[i] == 'I' ||
+      arr[i] == 'O' ||
+      arr[i] == 'o' ||
+      arr[i] == 'u' ||
+      arr[i] == 'U'
+    ) {
+      count++
+    }
+  }
+  console.log(count)
+  console.log(arr.length)
+}
+countVowels('aeiou AEIOU')
+
+//without using split() function
+let count1 = 0
+function countVowels(string) {
+  for (let i = 0; i < string.length; i++) {
+    if (
+      string[i] === 'a' ||
+      string[i] == 'A' ||
+      string[i] == 'e' ||
+      string[i] == 'E' ||
+      string[i] == 'i' ||
+      string[i] == 'I' ||
+      string[i] == 'O' ||
+      string[i] == 'o' ||
+      string[i] == 'u' ||
+      string[i] == 'U'
+    ) {
+      count1++
+    }
+  }
+  console.log(count1)
+}
+countVowels('string')
