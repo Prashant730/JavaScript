@@ -68,7 +68,7 @@ let array = [1, 2, 3, 4, 5, 6]
 console.log(array)
 
 //push
-array.push(7) //add 6 at the end of the array
+array.push(7) //add 7 at the end of the array
 console.log(array)
 
 //pop
